@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Luis Alberto García Martínez | Frontend Engineer (Angular)</title>
+  <meta name="description" content="Frontend Engineer (Angular) con experiencia en sistemas enterprise, microservicios, PrimeNG, migración Oracle Forms a Angular + Quarkus y sistemas de recaudación estatal." />
+  <style>
+    :root{
+      --bg:#071023;
+      --card:rgba(16,26,46,.70);
+      --text:#eaf0ff;
+      --muted:#a9b6d6;
+      --line:rgba(255,255,255,.12);
+      --chip:rgba(255,255,255,.10);
+      --accent:#69a7ff;
+      --accent2:#7ef0d2;
+      --shadow: 0 18px 55px rgba(0,0,0,.35);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      background:
+        radial-gradient(1200px 800px at 15% 10%, rgba(105,167,255,.18), transparent 60%),
+        radial-gradient(1000px 700px at 85% 0%, rgba(126,240,210,.14), transparent 60%),
+        linear-gradient(180deg, #050a14, var(--bg));
+      color:var(--text);
+    }
+    .wrap{max-width:1120px;margin:auto;padding:28px 18px 64px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:var(--shadow)}
+    .topbar{display:flex;justify-content:space-between;align-items:center;gap:12px}
+    .brand{display:flex;gap:12px;align-items:center}
+    .avatar{width:48px;height:48px;border-radius:14px;background:linear-gradient(135deg,#69a7ff,#7ef0d2);display:grid;place-items:center;font-weight:900;color:#081022}
+    h1,h2,h3{margin:0}
+    .muted{color:var(--muted)}
+    .btn{padding:9px 12px;border-radius:12px;border:1px solid var(--line);text-decoration:none;color:var(--text);font-weight:600}
+    .btn.primary{background:rgba(105,167,255,.14);border-color:rgba(105,167,255,.55)}
+    .hero{margin-top:18px}
+    .grid{margin-top:18px;display:grid;grid-template-columns:1.15fr .85fr;gap:18px}
+    @media(max-width:900px){.grid{grid-template-columns:1fr}}
+    .section-title{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#cfd8ff;margin-bottom:10px}
+    ul{margin:10px 0 0 18px}
+    li{margin:6px 0}
+    .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+    .chip{padding:6px 10px;border-radius:999px;border:1px solid var(--line);background:var(--chip);font-size:12px}
+    .item{border:1px solid var(--line);border-radius:16px;padding:14px;margin-bottom:12px;background:rgba(255,255,255,.03)}
+    .row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+    footer{text-align:center;color:var(--muted);font-size:12px;margin-top:20px}
+  </style>
+</head>
+
+<body>
+<div class="wrap">
+
+  <!-- HEADER -->
+  <header class="card topbar">
+    <div class="brand">
+      <div class="avatar">LG</div>
+      <div>
+        <h1>Luis Alberto García Martínez</h1>
+        <div class="muted">Frontend Engineer (Angular) · Remote Ready · México</div>
+      </div>
+    </div>
+    <div>
+      <a class="btn" href="https://github.com/luisG981">GitHub</a>
+      <a class="btn primary" href="mailto:luisberto981@gmail.com">Contactar</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="card hero">
+    <h2>Frontend Engineer especializado en sistemas enterprise y modernización tecnológica</h2>
+    <p class="muted" style="margin-top:8px">
+      Ingeniero en Sistemas Computacionales con +4 años de experiencia desarrollando aplicaciones web modernas con Angular,
+      participando en la modernización de sistemas críticos de gobierno y empresa privada. Experiencia sólida en
+      PrimeNG, consumo de APIs REST, arquitecturas de microservicios y migración de plataformas legacy.
+    </p>
+    <div class="tags">
+      <span class="chip">Angular</span>
+      <span class="chip">PrimeNG</span>
+      <span class="chip">TypeScript</span>
+      <span class="chip">Java Quarkus</span>
+      <span class="chip">Microservicios</span>
+      <span class="chip">Oracle Forms</span>
+      <span class="chip">PostgreSQL</span>
+      <span class="chip">GitLab</span>
+    </div>
+  </section>
+
+  <div class="grid">
+
+    <!-- MAIN -->
+    <main class="card">
+      <h2 class="section-title">Experiencia Profesional</h2>
+
+      <!-- OMINUS -->
+      <div class="item">
+        <div class="row">
+          <h3>Frontend Engineer (Angular)</h3>
+          <div class="muted">Ominus S.A. de C.V. ·  Nov 2022 – Jul 2025</div>
+        </div>
+        <p class="muted" style="margin-top:6px">
+          Proyecto: Sistema de Recaudación Estatal – Gobierno del Estado de Veracruz
+        </p>
+        <ul>
+          <li>Desarrollo de interfaces web con <b>Angular + PrimeNG</b> para un sistema de recaudación a nivel estatal.</li>
+          <li>Participación directa en la <b>migración tecnológica de Oracle Forms</b> a una arquitectura moderna basada en Angular.</li>
+          <li>Integración del frontend con <b>APIs REST desarrolladas en Java (Quarkus)</b> bajo un enfoque de microservicios.</li>
+          <li>Construcción de formularios complejos, validaciones, catálogos, reportes y flujos críticos de recaudación.</li>
+          <li>Colaboración con equipos backend para asegurar compatibilidad funcional durante la migración.</li>
+          <li>Control de versiones, revisiones y despliegues mediante <b>GitLab</b>.</li>
+          <li>Soporte y evolución continua del sistema productivo.</li>
+        </ul>
+      </div>
+
+      <!-- BC COMERCIA -->
+      <div class="item">
+        <div class="row">
+          <h3>Desarrollador de Sistemas (.NET)</h3>
+          <div class="muted">BC Comercia S.A. de C.V. · 2022</div>
+        </div>
+        <ul>
+          <li>Desarrollo y mantenimiento de sistemas administrativos en <b>.NET</b>.</li>
+          <li>Diseño y consumo de datos desde <b>SQL Server</b>.</li>
+          <li>Automatización de procesos internos para áreas administrativas.</li>
+          <li>Soporte funcional y mejora continua de aplicaciones existentes.</li>
+        </ul>
+      </div>
+
+      <!-- INSTRUCTOR -->
+      <div class="item">
+        <div class="row">
+          <h3>Instructor Full Stack Senior (AT&T-México)</h3>
+          <div class="muted">DEVELOP para AT&T · Sep 2025 – Nov 2025</div>
+        </div>
+        <ul>
+          <li>Impartí un curso intensivo de <b>Desarrollo Full Stack Senior (72 horas)</b> a profesionales de AT&T.</li>
+          <li>Frontend: React, HTML5, CSS3, JavaScript ES6+.</li>
+          <li>Backend: Node.js, Express; Bases de datos: PostgreSQL y MongoDB.</li>
+          <li>DevOps: Docker, Kubernetes y despliegue en la nube.</li>
+          <li>Mentoría en un proyecto integrador usando arquitectura de microservicios y buenas prácticas.</li>
+        </ul>
+      </div>
+
+      <!-- MASTER RACE -->
+      <div class="item">
+        <div class="row">
+          <h3>Gerente de Sucursal / Técnico en Cómputo</h3>
+          <div class="muted">Master Race PC · 2021</div>
+        </div>
+        <ul>
+          <li>Ensamble, diagnóstico y mantenimiento de equipos de alto rendimiento.</li>
+          <li>Atención a clientes, gestión de garantías y soporte técnico.</li>
+          <li>Coordinación operativa y liderazgo de sucursal.</li>
+	<li>Compras a provedor y planificacion. </li>
+        </ul>
+      </div>
+
+    </main>
+
+    <!-- SIDEBAR -->
+    <aside class="card">
+      <h2 class="section-title">Contacto</h2>
+      <p><b>Ubicacion:</b> Xalapa, Veracruz</p>	
+      <p><b>Email:</b> luisberto981@gmail.com</p>
+      <p><b>Tel:</b> 228 303 1913</p>
+      <p><b>Modalidad:</b> Remoto</p>
+
+      <h2 class="section-title" style="margin-top:18px">Stack Técnico</h2>
+      <div class="tags">
+        <span class="chip">Angular</span>
+        <span class="chip">PrimeNG</span>
+        <span class="chip">TypeScript</span>
+        <span class="chip">Java Quarkus</span>
+        <span class="chip">Microservicios</span>
+        <span class="chip">APIs REST</span>
+        <span class="chip">PostgreSQL</span>
+        <span class="chip">Oracle</span>
+        <span class="chip">SQL Server</span>
+        <span class="chip">GitLab</span>
+	<span class="chip">Power Apps</span>
+	<span class="chip">Oracle</span>
+	<span class="chip">PostgreSQL</span>
+	<span class="chip">SQL Server</span>
+	<span class="chip">Kubernetes</span>
+	<span class="chip">Docker</span>
+      </div>
+
+      <h2 class="section-title" style="margin-top:18px">Educación</h2>
+      <p><b>Ingeniería en Sistemas Computacionales</b><br>Universidad Euro Hispanoamericana · 2021</p>
+      <p><b>Técnico en Soporte y Mantenimiento</b><br>CBTIS #251 · 2016</p>
+
+      <h2 class="section-title" style="margin-top:18px">Idiomas</h2>
+      <p>Inglés – B2</p>
+
+		<h2 class="section-title" style="margin-top:18px">Diplomas</h2>
+<div class="item">
+  <p>
+    <b>Curso de la herramienta Cursor AI</b> · 2025<br>
+    Formación práctica en el uso de un entorno de desarrollo impulsado por
+    inteligencia artificial, enfocado en aumentar la productividad de
+    desarrolladores mediante la integración con modelos de lenguaje avanzados.
+  </p>
+</div>
+
+<h2 class="section-title" style="margin-top:18px">Cursos y Reconocimientos</h2>
+<div class="item">
+  <ul>
+    <li><b>Challenge Industrial 2.0</b> – LANIA (2017)</li>
+    <li><b>Congreso de Liderazgo</b> – Universidad Euro Hispanoamericana (2019)</li>
+    <li><b>Consultas con SQL</b> – LANIA (2025)</li>
+  </ul>
+</div
+
+  </div>
+    </aside>
+	
+
+
+  <footer>
+    © <span id="y"></span> Luis Alberto García Martínez
+  </footer>
+
+</div>
+
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
